@@ -17,7 +17,7 @@ const Header = () => {
 	return (
 		<>
 			<Navbar bg="dark" variant="dark" className={styles.navbar}>
-				<Navbar.Brand onClick={titleClickHandler} className={styles.title}>
+				<Navbar.Brand className={styles.title}>
 					Raees Herbal Clinic
 				</Navbar.Brand>
 				<Nav className={styles.navlinks}>

@@ -1,0 +1,55 @@
+.container {
+  text-align: center;
+  padding: 50px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.heading {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  color: #fff;
+}
+
+.text {
+  font-size: 16px;
+  margin: 0 0 30px 0;
+  color: #fff;
+}
+
+.button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  animation: bump 400ms ease-out;
+}
+
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(0.9);
+  }
+
+  30% {
+    transform: scale(1.1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

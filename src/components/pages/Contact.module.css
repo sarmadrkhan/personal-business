@@ -1,0 +1,59 @@
+.textColumn {
+    margin: auto;
+    color: white;
+    font-size: larger;
+    animation: text 1s ease-in forwards;
+  }
+  
+  .contactContainer {
+    margin-top: 5rem;
+  }
+  
+  .mapColumn {
+    animation: map 1s ease-in forwards;
+  }
+  
+  @keyframes map {
+    0% {
+      opacity: 0;
+      transform: translateX(3rem);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes text {
+    0% {
+      opacity: 0;
+      transform: translateX(-3rem);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .spinner {
+    /* CSS styles for the spinner */
+    /* Example styles, modify as needed */
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

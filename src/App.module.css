@@ -9,7 +9,8 @@
   text-align: center; /* Center the text */
 }
 
-.logo{
-  height: max-content;
-  width: max-content;
+.container {
+  padding: 0;
+  background-color: #3f3f3f;
+  min-height: 100vh;
 }
